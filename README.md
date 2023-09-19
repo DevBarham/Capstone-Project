@@ -54,7 +54,7 @@ Add additional notes about how to deploy this on a live system.
 
 ## Versioning
 
-We use [GitHub(http://github.com/) for versioning.
+We use [GitHub](http://github.com/) for versioning.
 
 ## Authors
 

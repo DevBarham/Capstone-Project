@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Checkout') {
+        stage('Checkout from SCM') {
             steps {
-                git 'https://github.com/https://github.com/DevBarham/Capstone-Project.git'
+                git branch: 'main', credentialsId: 'deploy',url: 'https://github.com/https://github.com/DevBarham/Capstone-Project.git'
             }
         }
         stage('Setup Terraform') {
